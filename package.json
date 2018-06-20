@@ -1,0 +1,24 @@
+{
+  "name": "@pabla/loose-php-unserialize",
+  "version": "0.1.0",
+  "description": "Decode result of PHP function \"serialize\"",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "tape 'src/**/*.test.js'"
+  },
+  "keywords": [
+    "php",
+    "unserialize",
+    "cp1251"
+  ],
+  "homepage": "https://github.com/pabla/loose-php-unserialize",
+  "author": "Kanin Pavel <kanin.pavel@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@pabla/eslint-config": "^0.2.4",
+    "babel-eslint": "^8.2.3",
+    "eslint": "^4.19.1",
+    "prettier": "^1.13.5",
+    "tape": "^4.9.1"
+  }
+}

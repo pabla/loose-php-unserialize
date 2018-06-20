@@ -1,0 +1,15 @@
+{
+  "extends": "@pabla/eslint-config",
+  "parserOptions": {
+    "sourceType": "script"
+  },
+  "env": {
+    "node": true
+  },
+  "rules": {
+    "strict": [
+      2,
+      "global"
+    ]
+  }
+}

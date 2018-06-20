@@ -1,0 +1,17 @@
+'use strict';
+
+// token types
+exports.TOKEN_NUMBER = 'TOKEN_NUMBER';
+exports.TOKEN_STRING = 'TOKEN_STRING';
+exports.TOKEN_BOOLEAN = 'TOKEN_BOOLEAN';
+exports.TOKEN_NULL = 'TOKEN_NULL';
+exports.TOKEN_BRACKET_OPEN = 'TOKEN_BRACKET_OPEN';
+exports.TOKEN_BRACKET_CLOSE = 'TOKEN_BRACKET_CLOSE';
+
+// node types
+exports.NODE_NUMBER = 'NODE_NUMBER';
+exports.NODE_STRING = 'NODE_STRING';
+exports.NODE_BOOLEAN = 'NODE_BOOLEAN';
+exports.NODE_NULL = 'NODE_NULL';
+exports.NODE_OBJECT = 'NODE_OBJECT';
+exports.NODE_ARRAY = 'NODE_ARRAY';
